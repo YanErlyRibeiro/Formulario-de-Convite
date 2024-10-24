@@ -1,0 +1,13 @@
+input[type="date"] {
+  position: relative;
+  
+  &::-webkit-calendar-picker-indicator {
+    position: absolute;
+    width: 100%;
+     opacity: 0; 
+  }
+}
+
+textarea {
+  padding: 1rem;
+}

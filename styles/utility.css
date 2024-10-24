@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.flex {
+  display: flex;
+  
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.gap-1 {
+  gap: 1rem;
+}

@@ -1,0 +1,13 @@
+@import url(/styles/fields/index.css);
+
+form {
+  display: grid;
+  gap: 3rem;
+  
+}
+
+fieldset {
+  border: none;
+ 
+}
+

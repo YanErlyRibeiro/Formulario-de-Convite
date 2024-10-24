@@ -13,6 +13,309 @@
 
 </head>
 <body>
+  <div id="app">
+    <aside>
+      <img src="/assets/Background.png" alt="">
+      
+    </aside>
+    
+    <main>
+      <div class="main-container">
+        <div>
+          <h1 >Crie seu convite</h1>
+
+          <form enctype="multipart/form-data">
+            <fieldset class="about-event grid">
+              
+              <legend>
+                <img src="assets/icons/calendar.svg" alt="">
+                <p>Sobre o evento</p>
+              </legend>
+
+              <div class="input-wrapper">
+                <label for="title-event">Título</label>
+                <input 
+                type="text" 
+                id="title-event" 
+                name="title-event"
+                placeholder="Nome do evento">
+              </div>
+              
+              <div class="date-wrapper flex gap-1" >
+                
+                <div class="input-wrapper flex-1">
+                  <label for="beggin-event">Início</label>
+                  <input type="date" id="beggin-event" name="beggin-event">
+                </div>
+                
+                <div class="input-wrapper flex-1" >
+                  <label for="end-event">Fim</label>
+                  <input type="date" id="end-event" name="end-event">
+                </div>
+              </div>
+
+            
+              <div class="flex gap-1">
+                <div class="input-wrapper flex-1 ">
+                       
+                  <label for="in-person">Tipo</label>
+                  <div class="radio-wrapper flex  ">
+                    <div class="radio-inner flex-1">
+                      <input type="radio" id="in-person" name="in-person" value="in-person"> 
+                      <div class="first-image"></div>
+                      <p>Presencial</p>
+                    </div>
+                    
+                    <div class="radio-inner flex-1">
+                      <input type="radio" name="online" value="online">
+                      <div class="second-image"></div>
+                      <p>Online</p>
+                    </div>
+                    
+                  </div>  
+                  
+                </div>
+                <div class="input-wrapper flex-1">
+                  <label for="">Local</label>
+                  <input type="text">
+                </div>
+     
+              </div>
+        
+              <div class="textarea-wrapper">
+                <label for="descrition">Descrição</label>
+                <textarea 
+                name="descrition" 
+                id="descrition" 
+                rows="5"
+                placeholder="Escreva sobre os detalhes do evento"></textarea>
+              </div>
+            </fieldset>
+
+            <fieldset class="customization">
+              <legend>
+                <img src="assets/icons/paintbrush-vertical.svg" alt="">
+                <p>Personalização</p>
+              </legend>
+              
+
+              <div class="input-wrapper">
+                <label for="color-primary"></label>
+               
+                <div class="color-wrapper">
+                
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#59B2FF">
+                </div>
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#6A59FF">
+                </div>
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#B259FF">
+                </div>
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#FF598B">
+                </div>
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#FF5959">
+                </div>
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#FF8B59">
+                </div>
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#FFCD59">
+                </div>
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#E1FF59">
+                </div>
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#59FF91">
+                </div>
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#59B2FF">
+                </div>
+                  <div class="color-inner">
+                  <input 
+                  type="color" 
+                  name="color"
+                  value="#59FFF9">
+                </div>
+                   
+                </div>
+             
+              </div>
+
+              <div class="input-wrapper">
+                <label for="cake">Tema do evento</label>
+                <div class="article-wrapper">
+                  <article>
+                    <input type="radio" id="cake" name="cake">
+                    <img src="assets/images/Image-1.png" alt="Imagem de bolo">
+                    <p>
+                      Aniversário
+                    </p>
+                  </article>
+                 
+                  <article>
+                    <input type="radio" name="childish">
+                    <img src="assets/images/Image-2.png" alt="Imagem de confetes">
+                    <p>
+                      Infantil
+                    </p>
+                  </article>
+                
+                  <article>
+                    <input type="radio" name="graduation" >
+                    <img src="assets/images/Image-3.png" alt="Imagem de chapéu de formatura">
+                    <p>
+                     Formatura
+                    </p>
+                  </article>
+                  
+                  <article>
+                    <input type="radio" name="marriage">
+                    <img src="assets/images/Image-4.png" alt="Imagem de duas alianças">
+                    <p>
+                     Casamento
+                    </p>
+                  </article>
+                
+                  <article>
+                    <input type="radio" name="baby-tea" >
+                    <img src="assets/images/Image-5.png" alt="Chá de bebê">
+                    <p>
+                      Chá de bebê
+                    </p>
+                  </article>
+                 
+                  <article>
+                    <input type="radio" name="bridal-shower">
+                    <img src="assets/images/Image-6.png" alt="Imagem de cozinha">
+                    <p>
+                     Chá de panelas
+                    </p>
+                  </article>
+                 
+                  <article>
+                    <input type="radio" name="carnival">
+                    <img src="assets/images/Image-7.png" alt="Imagem de enfeites">
+                    <p>
+                      Carnaval
+                    </p>
+                  </article>
+                  
+                  <article>
+                    <input type="radio" name="easter">
+                    <img src="assets/images/Image-8.png" alt="Imagem de um ovo de páscoa">
+                    <p>
+                      Páscoa
+                    </p>
+                  </article>
+                  
+                  <article>
+                    <input type="radio" name="sao-joao">
+                    <img src="assets/images/Image-9.png" alt="Imagem de bandeira de festa de São João">
+                    <p>
+                      São João
+                    </p>
+                  </article>
+                  
+                  <article>
+                    <input type="radio" name="halloween">
+                    <img src="assets/images/Image-10.png" alt="Imagem de abóboras com rosto malígno">
+                    <p>
+                      Halloween
+                    </p>
+                  </article>
+                 
+                  <article>
+                    <input type="radio" name="christmas">
+                    <img src="assets/images/Image-11.png" alt="Imagem de duas caixas de presente">
+                    <p>
+                      Natal
+                    </p>
+                  </article>
+                
+                  <article>
+                    <input type="radio" name="others">
+                    <img src="assets/images/Image-12.png" alt="Imagem de umas roda de amigos">
+                    <p>
+                      Outro
+                    </p>
+                  </article>
+                </div>
+              </div>
+
+              <div class="button-file  flex gap-1 ">
+                <div class="toggle-mode">
+                  <label >Estilo</label>
+                  <div class="mode">
+                      <input type="checkbox" id="check">
+                      <label for="check" class="button"></label>
+                     <label for="check" class="legend-mode">Dark/Light</label>
+                    </div >
+                  </div>
+                    
+                  <div class="filezone">
+                      <label for="">Foto de capa</label>
+                       <div class="file-wrapper ">
+                        <div class="file-inner">
+                          <img src="./assets/icons/upload.svg" alt="">
+                          <span>Selecionar</span>
+                          <input 
+                          type="file" 
+                          name="archivo"
+                          required>
+                          <div class="error"> 
+                            <img src="assets/icons/circle-alert.svg" alt="">
+                            <span>Error message</span>
+                           </div>
+                        </div>
+                        
+                      </div>
+                      
+                      </div>
+
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
   
 </body>
 </html>
