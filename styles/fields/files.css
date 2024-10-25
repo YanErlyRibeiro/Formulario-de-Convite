@@ -1,3 +1,8 @@
+.button-file {
+  display: flex;
+  align-items: center;
+}
+
 .filezone {
   padding-left: 3rem;
   
@@ -47,6 +52,7 @@
         position: absolute;
         top: 2.5rem;
         left: .1rem;
+        width: 10.5rem;
       }
       
       

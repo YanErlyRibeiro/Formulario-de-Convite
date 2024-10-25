@@ -15,7 +15,7 @@
 <body>
   <div id="app">
     <aside>
-      <img src="/assets/Background.png" alt="">
+      <img src="./assets/logo.svg" alt="">
       
     </aside>
     
@@ -42,7 +42,7 @@
                 required>
                 <div class="error"> 
                   <img src="assets/icons/circle-alert.svg" alt="">
-                  <span>Error message</span>
+                  <span>Campo obrigatório</span>
                  </div>
               </div>
               
@@ -86,7 +86,7 @@
                   required>
                   <div class="error"> 
                     <img src="assets/icons/circle-alert.svg" alt="">
-                    <span>Error message</span>
+                    <span>Campo obrigatório</span>
                    </div>
                 </div>
      
@@ -102,7 +102,7 @@
                 required></textarea>
                 <div class="error"> 
                   <img src="assets/icons/circle-alert.svg" alt="">
-                  <span>Error message</span>
+                  <span>Campo obrigatório</span>
                  </div>
               </div>
             </fieldset>
@@ -313,7 +313,7 @@
                           required>
                           <div class="error"> 
                             <img src="assets/icons/circle-alert.svg" alt="">
-                            <span>Error message</span>
+                            <span>Selecione um arquivo</span>
                            </div>
                           
                         </div>
@@ -338,7 +338,7 @@
                 placeholder="Nome completo">
                 <div class="error"> 
                   <img src="assets/icons/circle-alert.svg" alt="">
-                  <span>Error message</span>
+                  <span>Campo obrigatório</span>
                  </div>
               </div>
 
@@ -351,7 +351,7 @@
                   placeholder="example@email.com">
                   <div class="error"> 
                     <img src="assets/icons/circle-alert.svg" alt="">
-                    <span>Error message</span>
+                    <span>Campo obrigatório</span>
                    </div>
                 </div>
                 
@@ -362,14 +362,38 @@
                   placeholder="(99) 99999-9999">
                   <div class="error"> 
                     <img src="assets/icons/circle-alert.svg" alt="">
-                    <span>Error message</span>
+                    <span>Campo obrigatório</span>
                    </div>
                 </div>
               </div>
-              </div>
+             
 
 
             </fieldset>
+
+            <div class="terms-wrapper "> 
+              <div class="terms-inner">
+                <div class="checkbox-image"></div>
+                <input type="checkbox" name="terms" id="terms" checked>
+                <label for="terms">Li e concordo com os <span>Termos e Condições</span> e com a <span>Política de Privacidade</span></label>
+              </div>
+              <div class="terms-inner">
+                <div class="checkbox-image"></div>
+                <input type="checkbox" name="update-email" id="update-email" value="update-email" >
+                <label for="update-email">Aceito receber atualizações e promoções por e-mail</label>
+              </div>
+              <div class="terms-inner">
+                <div class="checkbox-image"></div>
+                <input type="checkbox" name="update-sms" id="update-sms" value="update-sms">
+                <label for="update-sms">Aceito receber atualizações e promoções por SMS</label>
+              </div>
+            </div>
+
+            <div class="action-wrapper">
+             <button type="submit">
+              <img src="assets/icons/ticket.svg" alt="">
+              Gerar convite</button>
+            </div>
           </form>
         </div>
       </div>
