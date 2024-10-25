@@ -1,7 +1,7 @@
 .filezone {
   padding-left: 3rem;
- 
   
+ 
  .file-wrapper {
   
    gap: .75rem;
@@ -42,6 +42,12 @@
         opacity: 0;
         z-index:0;
       }
+
+      .error {
+        position: absolute;
+        top: 2.5rem;
+        left: .1rem;
+      }
       
       
     }
@@ -52,23 +58,11 @@
     all: unset;    
     font: var(--text-md);
     color: var(--input-placeholder);
-     width: 14rem ;
-  
+     width: 12.6rem;
     &:hover {
       cursor: pointer;
     }
-   &:required + .error {
-      display: flex;
-      color: var(--danger);
-      font: var(--text-xs);
-      
-      margin-top: .5rem;
-      gap: .5rem;
 
- 
-    
-  }
-    
    
 }
 

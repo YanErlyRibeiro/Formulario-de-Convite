@@ -77,3 +77,15 @@ input {
 
   }
    }
+
+   .contact {
+    padding-bottom: 3rem;
+     border-bottom: 1px solid var(--input-stroke);
+    
+    & .info-contact {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    
+   }

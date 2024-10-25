@@ -11,3 +11,29 @@ input[type="date"] {
 textarea {
   padding: 1rem;
 }
+
+input, textarea {
+  &:focus, &:focus-within, &:hover {
+    border: 1px solid var(--brand-light);
+  }
+
+  &[required] + .error {
+   
+    display: flex;
+    color: var(--danger);
+    font: var(--text-xs);
+    
+    margin-top: .5rem;
+    gap: .5rem;
+  }
+
+  &:invalid {
+   border:1px solid var(--danger) ;
+  }
+ 
+  &:not(:focus):valid + .error {
+    display: none;
+  }
+  
+}
+
